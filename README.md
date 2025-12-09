@@ -13,11 +13,11 @@ ai论文一键生成，毕业论文、专升本论文、课程论文、期刊论
 
 * C端(客户端): https://jym.dashixiezuo.com
 
-![image.png](./img/54e37c5bb2e023d911a2d4e84080eb00.png)
+![image.png](./54e37c5bb2e023d911a2d4e84080eb00.png)
 
 * B端(管理端): https://admins.taoxiangyoushu.com/#/register?code=e87IbsW8
 
-![image.png](./img/aadceeb5bc567d354daa9065728f4f4a.png)
+![image.png](./aadceeb5bc567d354daa9065728f4f4a.png)
 
 ## C端功能特性
 * 🚀一键生成结构完善、内容专业高质量的论文文件
@@ -107,4 +107,5 @@ ai论文一键生成，毕业论文、专升本论文、课程论文、期刊论
 ## 🤝联系我们(请在微信备注: 合作合伙人)
 * 微信: kelelw520
 
-![image.png](./img/e8723d01f4beb07451eed0df9d5cd8e7.png)
+![image.png](./e8723d01f4beb07451eed0df9d5cd8e7.png)
+
