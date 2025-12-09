@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI论文平台招商加盟 - AI论文生成系统 OEM加盟招商</title>
+    <meta name="description" content="AI论文平台招商加盟，提供一键生成高质量论文系统，支持降重、查重、多级提纲等功能。0元部署，无需编程，提供数据管理后台，支持OEM加盟招商。">
+    <meta name="keywords" content="AI论文平台,论文生成系统,论文降重,论文查重,OEM加盟,招商创业,AI论文招商,论文平台加盟">
+    <meta name="author" content="AI论文平台招商加盟">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f7fa;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        body {
+            padding-top: 80px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+        }
+        
+        .nav-links li {
+            margin-left: 20px;
+        }
+        
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #ffd700;
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 0;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .hero-text {
+            flex: 1;
+            min-width: 300px;
+            margin-right: 40px;
+            max-width: 600px;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 40px;
+            opacity: 0.9;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #ffd700;
+            color: #333;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 50px;
+            font-size: 18px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+        }
+        
+        .cta-button:hover {
+            background: #ffed4e;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+        }
+        
+        .contact-card {
+            flex: 0 0 300px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .contact-card h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+        
+        .contact-card p {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+        
+        .contact-card .note {
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 20px;
+            font-size: 14px;
+        }
+        
+        .contact-card img {
+            max-width: 150px;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .features {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 60px;
+            color: #333;
+            font-weight: 700;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        /* 自定义滚动条样式 */
+        .feature-card::-webkit-scrollbar {
+            width: 8px;
+        }
+        
+        .feature-card::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 4px;
+        }
+        
+        .feature-card::-webkit-scrollbar-thumb {
+            background: #667eea;
+            border-radius: 4px;
+        }
+        
+        .feature-card::-webkit-scrollbar-thumb:hover {
+            background: #5568d3;
+        }
+        
+        /* Firefox滚动条样式 */
+        .feature-card {
+            scrollbar-width: thin;
+            scrollbar-color: #667eea #f1f1f1;
+        }
+        
+        .feature-card {
+            background: #f8f9fa;
+            padding: 0;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            max-height: 600px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .feature-card h3 {
+            padding: 30px 30px 15px;
+            margin: 0;
+            background: #f8f9fa;
+            border-radius: 10px 10px 0 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        
+        .feature-card ul {
+            padding: 0 40px 30px;
+            margin: 0;
+            overflow-y: auto;
+            flex: 1;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-card h3 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            color: #667eea;
+        }
+        
+        .feature-card ul {
+            list-style: none;
+        }
+        
+        .feature-card li {
+            margin-bottom: 10px;
+            padding-left: 25px;
+            position: relative;
+        }
+        
+        .feature-card li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .demo-section {
+            padding: 80px 0;
+            background: #f5f7fa;
+        }
+        
+        .demo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .demo-item {
+            text-align: center;
+        }
+        
+        .demo-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        
+        .demo-item h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .demo-item p {
+            color: #666;
+        }
+        
+        .advantages {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .advantages-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .advantage-item {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .advantage-item .icon {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        .advantage-item h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .advantage-item p {
+            color: #666;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        
+        @media (max-width: 992px) {
+            .hero-content {
+                flex-direction: column;
+            }
+            
+            .hero-text {
+                margin-right: 0;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+            
+            .contact-card {
+                flex: 1;
+                max-width: 300px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .demo-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .hero h1 {
+                font-size: 28px;
+            }
+            
+            .hero p {
+                font-size: 16px;
+            }
+            
+            .cta-button {
+                padding: 12px 30px;
+                font-size: 16px;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">AI论文平台招商加盟</div>
+            <ul class="nav-links">
+                <li><a href="#features">功能特性</a></li>
+                <li><a href="#demo">在线体验</a></li>
+                <li><a href="#advantages">系统优势</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>🧰 AI论文平台招商加盟</h1>
+                    <p>ai论文一键生成，毕业论文、专升本论文、课程论文、期刊论文、开题报告、任务书、调研报告、实践报告、答辩ppt、AIGC降重...</p>
+                    <a href="https://admins.taoxiangyoushu.com/#/register?code=e87IbsW8" target="_blank" class="cta-button">立即加盟</a>
+                </div>
+                <div class="contact-card">
+                    <h3>🤝 联系我们</h3>
+                    <p>微信: kelelw520</p>
+                    <p class="note">(请备注: 合作合伙人)</p>
+                    <img src="./img/e8723d01f4beb07451eed0df9d5cd8e7.png" alt="联系微信二维码">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">核心功能特性</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>C端功能特性</h3>
+                    <ul>
+                        <li>🚀一键生成结构完善、内容专业高质量的论文文件</li>
+                        <li>🔥支持降AIGC率, 维,万,知等AI率检测30%以下</li>
+                        <li>🔥查重率低, 维,万,知等查重率检测20%以下</li>
+                        <li>支持自定义参考文献</li>
+                        <li>支持英文参考文献数量设定</li>
+                        <li>🔥支持三级提纲, 提供AI生成提纲, 自写提纲, 编辑提纲</li>
+                        <li>支持超长文输出, 上下文连贯, 一次性生成十万字</li>
+                        <li>支持自定义投喂内容, 投喂开题报告</li>
+                        <li>🔥支持图表,表格,插图,公式,代码,问卷调查自选插入</li>
+                        <li>支持用户勾选增值服务(如:开题报告,任务书,降AI,答辩ppt,实证数据)</li>
+                        <li>真实参考文献, 内容自动引用标注</li>
+                        <li>🔥支持匿名,无需登录</li>
+                        <li>🔥支持PC端,移动端</li>
+                        <li>支持API调用和定制</li>
+                        <li>支持二级分销, 活动营销等玩法</li>
+                        <li>🔥支持微信、支付宝、小红书等支付方式</li>
+                        <li>提供C端源码, 可二次开发</li>
+                    </ul>
+                </div>
+                <div class="feature-card">
+                    <h3>B端功能特性</h3>
+                    <ul>
+                        <li>🚀提供数据管理后台其中主账号1个,子账号5个</li>
+                        <li>支持用户注册, 登录, 个人信息维护</li>
+                        <li>🔥支持订单管理, 订单支付, 订单退款</li>
+                        <li>🔥支持数据统计, 分析, 报表等功能</li>
+                        <li>🔥支持一键配置专属域名(免费)</li>
+                        <li>支持绑定自有域名(CNAME解析)</li>
+                        <li>支持配置客服信息(如:客服微信,客服邮箱,客服电话)</li>
+                        <li>支持设置跟踪链接(统计流量来源与转化)</li>
+                        <li>支持自定义调整销售价(固定计费或阶梯计费)</li>
+                        <li>支持自定义产品增值服务启用状态和默认勾选</li>
+                        <li>支持在打包文件中插入自定义文件(如插入查重链接文档)</li>
+                        <li>支持数据分享(如分享给二级代理销售数据)</li>
+                        <li>🔥支持平台收款(如:微信支付,支付宝支付)或绑定自有支付账号</li>
+                        <li>平台代收利润随时可提现, 资金秒到账</li>
+                        <li>🔥支持查看意向订单,成交订单,订单详情</li>
+                        <li>支持手工提交查重降重订单(checkPass每日免费十次)</li>
+                        <li>🔥支持配置微信支付, 支付宝支付, 小红书支付, 淘宝支付</li>
+                        <li>🔥支持优惠券生成(免费券,折扣券,满减券,直减券)</li>
+                        <li>提供分销功能(如:二级分销)</li>
+                        <li>🔥提供活动管理,活动配置</li>
+                        <li>支持公众号配置(如活动关注公众号自动发优惠券)</li>
+                        <li>拥有用户等级, 积分系统</li>
+                        <li>支持配置360oCPC、百度oCPC</li>
+                        <li>🔥支持配置网站名称、关键词、描述、百度统计代码</li>
+                        <li>🔥支持主题设置、logo设置、icon设置</li>
+                        <li>🔥支持报告logo设置, 自定义报告ico</li>
+                        <li>提供API接口文档, 方便开发者调用</li>
+                        <li>提供前端源码二次开发部署</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="demo" class="demo-section">
+        <div class="container">
+            <h2 class="section-title">在线体验地址</h2>
+            <div class="demo-grid">
+                <div class="demo-item">
+                    <h3>C端(客户端)</h3>
+                    <a href="https://jym.dashixiezuo.com" target="_blank">
+                        <img src="./img/54e37c5bb2e023d911a2d4e84080eb00.png" alt="C端客户端界面">
+                    </a>
+                    <p><a href="https://jym.dashixiezuo.com" target="_blank" style="color: #667eea; text-decoration: none;">https://jym.dashixiezuo.com</a></p>
+                </div>
+                <div class="demo-item">
+                    <h3>B端(管理端)</h3>
+                    <a href="https://admins.taoxiangyoushu.com/#/register?code=e87IbsW8" target="_blank">
+                        <img src="./img/aadceeb5bc567d354daa9065728f4f4a.png" alt="B端管理端界面">
+                    </a>
+                    <p><a href="https://admins.taoxiangyoushu.com/#/register?code=e87IbsW8" target="_blank" style="color: #667eea; text-decoration: none;">https://admins.taoxiangyoushu.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="advantages" class="advantages">
+        <div class="container">
+            <h2 class="section-title">加盟优势</h2>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="icon">🎓</div>
+                    <h3>全网已部署百套</h3>
+                    <p>成熟的产品体系，市场验证成功</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">🕹️</div>
+                    <h3>五分钟即可开始运营</h3>
+                    <p>无需编程，无需设计，0元部署</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">💡</div>
+                    <h3>提供数据管理后台</h3>
+                    <p>完整的B端管理系统，轻松运营</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">💰</div>
+                    <h3>灵活的盈利模式</h3>
+                    <p>支持二级分销，活动营销等玩法</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">🔧</div>
+                    <h3>技术支持保障</h3>
+                    <p>提供C端源码，可二次开发</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">📊</div>
+                    <h3>数据统计分析</h3>
+                    <p>完善的数据报表，助力决策</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">🤝</div>
+                    <h3>全方位运营支持</h3>
+                    <p>提供运营指导、营销方案和培训支持</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="icon">🚀</div>
+                    <h3>持续产品更新</h3>
+                    <p>定期更新功能，保持市场竞争力</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 AI论文平台招商加盟. 保留所有权利.</p>
+        </div>
+    </footer>
+</body>
+</html>
