@@ -19,6 +19,8 @@ ai论文一键生成，毕业论文、专升本论文、课程论文、期刊论
 
 ![image.png](./aadceeb5bc567d354daa9065728f4f4a.png)
 
+* 操作文档: https://taoxiang.feishu.cn/wiki/YDjrw750WiRvghkmdh9cPyENnld?from=from_copylink
+
 ## C端功能特性
 * 🚀一键生成结构完善、内容专业高质量的论文文件
 * 🔥支持降AIGC率, 维,万,知等AI率检测30%以下
@@ -108,4 +110,5 @@ ai论文一键生成，毕业论文、专升本论文、课程论文、期刊论
 * 微信: kelelw520
 
 ![image.png](./e8723d01f4beb07451eed0df9d5cd8e7.png)
+
 
